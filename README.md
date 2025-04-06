@@ -20,7 +20,7 @@ This Flutter application is designed to assist educators with two key tasks: cre
 ## Screenshots
 
 * **Welcome Screen:** Shows the app's name and options to navigate to the Lesson Planner or Essay Feedback features.
-     ![welcomescreen.jpg](https://i.postimg.cc/YCGbkvMH/welcomescreen.jpg)
+     ![image.png](https://i.postimg.cc/q73dSBzb/image.png)
 * **Lesson Planner Input:** Displays fields for entering the lesson topic and grade level.
      ![image.png](https://i.postimg.cc/CLmktS8V/image.png)
 * **Generated Lesson Plan:** Shows a sample generated lesson plan with its different sections.
@@ -28,7 +28,7 @@ This Flutter application is designed to assist educators with two key tasks: cre
 * **Essay Feedback Input:** Presents a text area for pasting the student essay.
     ![image.png](https://i.postimg.cc/DZn1HZxn/image.png)
 * **Essay Feedback Results:** Displays the overall score and detailed feedback for an analyzed essay.
-   ![image.png](https://i.postimg.cc/yYZWhKTP/image.png)]
+    ![image.png](https://i.postimg.cc/yYZWhKTP/image.png)
 
 ## Installation and Setup
 
