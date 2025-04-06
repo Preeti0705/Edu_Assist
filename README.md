@@ -20,7 +20,7 @@ This Flutter application is designed to assist educators with two key tasks: cre
 ## Screenshots
 
 * **Welcome Screen:** Shows the app's name and options to navigate to the Lesson Planner or Essay Feedback features.
-    * `![Welcome Screen](https://photos.app.goo.gl/fHAeyZ5NUGD6sruD7)`
+    * `[![welcomescreen.jpg](https://i.postimg.cc/YCGbkvMH/welcomescreen.jpg)](https://postimg.cc/9D2GYFD8)`
 * **Lesson Planner Input:** Displays fields for entering the lesson topic and grade level.
     * `![Lesson Planner Input](https://photos.app.goo.gl/eWqBtbXAQbtQ9ui17)`
 * **Generated Lesson Plan:** Shows a sample generated lesson plan with its different sections.
