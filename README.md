@@ -1,6 +1,5 @@
 # EduAssist
 
-
 ## Introduction
 
 This Flutter application is designed to assist educators with two key tasks: creating lesson plans and providing automated feedback on student essays. Leveraging the power of Google Cloud Platform and cutting-edge AI, this app aims to streamline teaching workflows and enhance student learning. The frontend is built using Flutter and developed with the help of Google's Project IDX platform, ensuring a modern and efficient development experience. The backend utilizes Google Cloud Functions and the Google Gemini API to provide intelligent lesson plan generation and essay analysis.
@@ -20,18 +19,16 @@ This Flutter application is designed to assist educators with two key tasks: cre
 
 ## Screenshots
 
-*(Ideally, you would include actual screenshots of your application here. Since I don't have access to your app's UI, I'll provide placeholder descriptions. You should replace these with real image links or descriptions.)*
-
 * **Welcome Screen:** Shows the app's name and options to navigate to the Lesson Planner or Essay Feedback features.
-    * `![Welcome Screen](path/to/welcome_screenshot.png)`
+    * `![Welcome Screen](https://photos.app.goo.gl/fHAeyZ5NUGD6sruD7)`
 * **Lesson Planner Input:** Displays fields for entering the lesson topic and grade level.
-    * `![Lesson Planner Input](path/to/lesson_planner_input_screenshot.png)`
+    * `![Lesson Planner Input](https://photos.app.goo.gl/eWqBtbXAQbtQ9ui17)`
 * **Generated Lesson Plan:** Shows a sample generated lesson plan with its different sections.
-    * `![Generated Lesson Plan](path/to/lesson_plan_output_screenshot.png)`
+    * `![Generated Lesson Plan](https://photos.app.goo.gl/7Ye67gp49Lx463yo8)`
 * **Essay Feedback Input:** Presents a text area for pasting the student essay.
-    * `![Essay Feedback Input](path/to/essay_feedback_input_screenshot.png)`
+    * `![Essay Feedback Input](https://photos.app.goo.gl/jaj9x8JF5rtmbrdr6)`
 * **Essay Feedback Results:** Displays the overall score and detailed feedback for an analyzed essay.
-    * `![Essay Feedback Results](path/to/essay_feedback_output_screenshot.png)`
+    * `![Essay Feedback Results](https://photos.app.goo.gl/z5eFz4SGLESfBd7T8)`
 
 ## Installation and Setup
 
@@ -67,3 +64,4 @@ To run this application locally, you will need to have Flutter installed on your
 * Update the frontend code with the correct URL for your deployed Cloud Function.
 
 This README provides a basic overview for running the Flutter frontend locally. Deployment of the backend and full integration with cloud services requires additional configuration on Google Cloud Platform.
+
