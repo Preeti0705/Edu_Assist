@@ -1,16 +1,68 @@
-# myapp
+# Lesson Planner with Automated Essay Feedback
 
-A new Flutter project.
+## Introduction
 
-## Getting Started
+This Flutter application is designed to assist educators with two key tasks: creating lesson plans and providing automated feedback on student essays. Leveraging the power of Google Cloud Platform and cutting-edge AI, this app aims to streamline teaching workflows and enhance student learning. The frontend is built using Flutter and developed with the help of Google's Project IDX platform, ensuring a modern and efficient development experience. The backend utilizes Google Cloud Functions and the Google Gemini API to provide intelligent lesson plan generation and essay analysis.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+* **Lesson Plan Generation:**
+    * Generate comprehensive lesson plans based on a specified topic and grade level.
+    * Leverages the Google Gemini API to create well-structured plans including objectives, key concepts, teaching strategies, and suggested activities.
+    * Displays generated lesson plans in a clear, scrollable format.
+* **Automated Essay Feedback:**
+    * Allows teachers or students to input essay text for automated analysis.
+    * Utilizes the Google Gemini API to assess essays based on predefined criteria (Grammar, Clarity, Content Relevance, Structure).
+    * Provides an overall score/grade ("Excellent," "Good," "Needs Improvement").
+    * Generates personalized, actionable feedback for each rubric criterion.
+    * Presents the score and feedback in an organized and easy-to-understand manner.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*(Ideally, you would include actual screenshots of your application here. Since I don't have access to your app's UI, I'll provide placeholder descriptions. You should replace these with real image links or descriptions.)*
+
+* **Welcome Screen:** Shows the app's name and options to navigate to the Lesson Planner or Essay Feedback features.
+    * `![Welcome Screen](path/to/welcome_screenshot.png)`
+* **Lesson Planner Input:** Displays fields for entering the lesson topic and grade level.
+    * `![Lesson Planner Input](path/to/lesson_planner_input_screenshot.png)`
+* **Generated Lesson Plan:** Shows a sample generated lesson plan with its different sections.
+    * `![Generated Lesson Plan](path/to/lesson_plan_output_screenshot.png)`
+* **Essay Feedback Input:** Presents a text area for pasting the student essay.
+    * `![Essay Feedback Input](path/to/essay_feedback_input_screenshot.png)`
+* **Essay Feedback Results:** Displays the overall score and detailed feedback for an analyzed essay.
+    * `![Essay Feedback Results](path/to/essay_feedback_output_screenshot.png)`
+
+## Installation and Setup
+
+To run this application locally, you will need to have Flutter installed on your development machine.
+
+1.  **Install Flutter:** Follow the official Flutter installation guide for your operating system: [https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/get-started/install)
+
+2.  **Clone the Repository:**
+    ```bash
+    git clone YOUR_REPOSITORY_URL
+    cd myapp
+    ```
+    *(Replace `YOUR_REPOSITORY_URL` with the actual URL of your project's Git repository.)*
+
+3.  **Get Dependencies:**
+    ```bash
+    flutter pub get
+    ```
+    This command downloads all the necessary Flutter packages and dependencies for the project.
+
+4.  **Running the App:**
+    ```bash
+    flutter run
+    ```
+    This command builds and runs the Flutter application on your connected device or emulator.
+
+**Note:** The automated features of this application rely on Google Cloud Functions and the Google Gemini API. To fully utilize these features in a deployed environment, you will need to:
+
+* Set up a Google Cloud Project.
+* Enable the Cloud Functions and Generative AI services.
+* Deploy the backend Cloud Functions (code for which would be provided separately).
+* Obtain a Gemini API key and configure it as an environment variable for your Cloud Function.
+* Update the frontend code with the correct URL for your deployed Cloud Function.
+
+This README provides a basic overview for running the Flutter frontend locally. Deployment of the backend and full integration with cloud services requires additional configuration on Google Cloud Platform.
