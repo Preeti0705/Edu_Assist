@@ -1,4 +1,5 @@
-# Lesson Planner with Automated Essay Feedback
+# EduAssist
+
 
 ## Introduction
 
