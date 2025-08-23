@@ -1,4 +1,4 @@
-# EduAssist
+# Edu_Assist
 
 ## Introduction
 
