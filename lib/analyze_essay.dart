@@ -14,7 +14,7 @@ class _AnalyzeEssayPageState extends State<AnalyzeEssayPage> {
   String _overallScore = '';
   Map<String, String> _feedback = {};
   bool _isAnalyzing = false;
-  String _errorMessage = '';
+  String _errorMessage = '';   
 
   Future<void> _analyzeEssay() async {
     setState(() {
