@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This Flutter application is designed to assist educators with two key tasks: creating lesson plans and providing automated feedback on student essays. Leveraging the power of Google Cloud Platform and cutting-edge AI, this app aims to streamline teaching workflows and enhance student learning. The frontend is built using Flutter and developed with the help of Google's Project IDX platform, ensuring a modern and efficient development experience. The backend utilizes Google Cloud Functions and the Google Gemini API to provide intelligent lesson plan generation and essay analysis.
+This Flutter application is designed to assist educators with two key tasks: creating lesson plans and providing automated feedback on student essays. Leveraging the power of Google Cloud Platform and cutting-edge AI, this app aims to streamline teaching workflows and enhance student learning. The frontend is built using Flutter and developed with the help of Google's Project IDX platform, ensuring a modern and efficient development experience. The backend utilizes Google Cloud Functions and the Google Gemini API to provide intelligent lesson plan generation and essay analysis.  
 
 ## Features
 
