@@ -7,7 +7,7 @@
   packages = [
     pkgs.jdk17
     pkgs.unzip
-  ];
+  ];   
   # Sets environment variables in the workspace
   env = {};
   idx = {
